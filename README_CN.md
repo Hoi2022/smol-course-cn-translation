@@ -89,7 +89,7 @@ pip install -r requirements.txt
 pip install -r transformers trl datasets huggingface_hub
 ```
 
-## 欢迎加入课程
+## 再次表示欢迎
 
 期待大家参与！让更多人在无需昂贵计算资源的情况下学习微调大语言模型。
 
