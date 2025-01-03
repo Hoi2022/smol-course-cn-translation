@@ -28,7 +28,7 @@
 | ORPO 训练 | 学习用 ORPO 训练模型 | 🐢 用指令数据和偏好数据训练模型<br>🐕 对不同的损失权重进行实验<br>🦁 对比 ORPO 和 DPO 的结果 | [Notebook](./notebooks/orpo_finetuning_example.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/huggingface/smol-course/blob/main/2_preference_alignment/notebooks/orpo_finetuning_example.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
 
-## Resources
+## 参考资料
 
 - [TRL 官方文档](https://huggingface.co/docs/trl/index) - TRL 是一个基于 Transformers 的强化学习库，这里实现了包括 DPO 在内的各种对齐算法。
 - [DPO 论文](https://arxiv.org/abs/2305.18290) - 该论文针对当时已有的 RLHF 方法，提出了新的对齐方法，可以直接使用偏好数据优化模型参数。
