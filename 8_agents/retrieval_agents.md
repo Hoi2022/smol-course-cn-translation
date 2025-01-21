@@ -9,16 +9,16 @@ Traditional RAG has key limitations - it only performs a single retrieval step a
 Let's start by building a simple agent that can search the web using DuckDuckGo. This agent will be able to answer questions by retrieving relevant information and synthesizing responses.
 
 ```python
-from smolagents import Agent
-from smolagents.tools import DuckDuckGoSearch
+from smolagents import CodeAgent, DuckDuckGoSearchTool, HfApiModel
 
 # Initialize the search tool
-search_tool = DuckDuckGoSearch()
+search_tool = DuckDuckGoSearchTool()
 
-# Create an agent with memory
-agent = Agent(
-    name="research_assistant",
-    description="I help find and synthesize information from the web",
+# Initialize the model
+model = HfApiModel()
+
+agent = CodeAgent(
+    model = model,
     tools=[search_tool]
 )
 
