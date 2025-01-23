@@ -20,17 +20,17 @@
 
 ### 练习
 
-| Title | Description | Exercise | Link | Colab |
+| 标题 | 概述 | 练习 | 链接 | Colab |
 |-------|-------------|----------|------|-------|
-| Pipeline Inference | Basic inference with transformers pipeline | 🐢 Set up a basic pipeline <br> 🐕 Configure generation parameters <br> 🦁 Create a simple web server | [Link](./notebooks/basic_pipeline_inference.ipynb) | [Colab](https://githubtocolab.com/huggingface/smol-course/tree/main/7_inference/notebooks/basic_pipeline_inference.ipynb) |
-| TGI Deployment | Production deployment with TGI | 🐢 Deploy a model with TGI <br> 🐕 Configure performance optimizations <br> 🦁 Set up monitoring and scaling | [Link](./notebooks/tgi_deployment.ipynb) | [Colab](https://githubtocolab.com/huggingface/smol-course/tree/main/7_inference/notebooks/tgi_deployment.ipynb) |
+| 使用 Pipeline 推理 | 使用 transformers 的 pipeline 进行推理 | 🐢 创建一个 pipeline <br> 🐕 配置生成参数 <br> 🦁 创建一个简单的网页端服务 | [Link](./notebooks/basic_pipeline_inference_cn.ipynb) | [Colab](https://githubtocolab.com/huggingface/smol-course/tree/main/7_inference/notebooks/basic_pipeline_inference.ipynb) |
+| 使用 TGI 部署 | 在生产环境进行 TGI 部署 | 🐢 用 TGI 部署一个模型 <br> 🐕 调节参数，优化性能 <br> 🦁 监控和扩展 | [Link](./notebooks/tgi_deployment_cn.ipynb) | [Colab](https://githubtocolab.com/huggingface/smol-course/tree/main/7_inference/notebooks/tgi_deployment.ipynb) |
 
-## Resources
+## 参考资料
 
-- [Hugging Face Pipeline Tutorial](https://huggingface.co/docs/transformers/en/pipeline_tutorial)
-- [Text Generation Inference Documentation](https://huggingface.co/docs/text-generation-inference/en/index)
-- [Pipeline WebServer Guide](https://huggingface.co/docs/transformers/en/pipeline_tutorial#using-pipelines-for-a-webserver)
-- [TGI GitHub Repository](https://github.com/huggingface/text-generation-inference)
-- [Hugging Face Model Deployment Documentation](https://huggingface.co/docs/inference-endpoints/index)
+- [Hugging Face 的 Pipeline 教程](https://huggingface.co/docs/transformers/en/pipeline_tutorial)
+- [Text Generation Inference 官方文档](https://huggingface.co/docs/text-generation-inference/en/index)
+- [基于 Pipeline 创建 WebServer 指南](https://huggingface.co/docs/transformers/en/pipeline_tutorial#using-pipelines-for-a-webserver)
+- [TGI GitHub 代码仓库](https://github.com/huggingface/text-generation-inference)
+- [Hugging Face 模型部署文档](https://huggingface.co/docs/inference-endpoints/index)
 - [vLLM: High-throughput LLM Serving](https://github.com/vllm-project/vllm)
-- [Optimizing Transformer Inference](https://huggingface.co/blog/optimize-transformer-inference)
+- [优化 Transformer 模型推理](https://huggingface.co/blog/optimize-transformer-inference)
